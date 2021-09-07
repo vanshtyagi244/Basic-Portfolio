@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(216, 216, 216);
+    overflow-x: hidden;
+}
+ /* Header */
+ header, footer{
+    display: flex;
+    background-color: #ad1c58;
+    align-items: center;
+}
+.myname{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 5rem;
+    color:white;
+}
+nav{
+    position: absolute;
+    right: 50px;
+}
+ nav li, footer li{
+     list-style: none;
+ }
+ nav a, footer a{
+     text-decoration:none;
+     color: white;
+     font-size: 2rem;
+     margin: 25px;
+     padding: 6px;
+ }
+ nav a:hover, .active{
+  color:#ad1c58;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+ }
+ nav ul, footer ul{
+     display: flex;
+     justify-content: center;
+ }
+ /* About */
+#About h1{
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem;
+    color:#ad1c58;
+}
+
+#name{
+font-size: 3rem;
+font-family: 'ZCOOL KuaiLe', cursive;
+}
+#bio{
+    font-size: 2rem;
+    width: 500px;
+    margin: 100px 0 0px 200px;
+    font-weight: bold;
+    color:#ad1c58;
+    line-height: 3rem;
+}
+.svg1{
+    width: 600px;
+    position: absolute;
+    right:100px;
+    top:100px;
+}
+.social{
+    color: white;
+    background-color: blue;
+   text-decoration: none;
+   font-size: 1.4rem;
+   padding: 10px 20px;
+   margin: 3px;
+   border-radius:12px;
+   box-shadow: 5px 5px 7px darkgray;
+}
+#box{
+    margin: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0 0px 200px;
+}
+#face{
+    background-color: rgb(69, 190, 238);
+    border:2px solid rgb(69, 190, 238) ;
+}
+#insta{
+    background-color:rgb(255, 123, 100);
+    border: 2px solid rgb(255, 123, 100);
+}
+#twitter{
+    background-color:rgb(89, 61, 134);
+    border: 2px solid rgb(89, 61, 134);
+}
+#mail{
+    background-color: rgb(137, 189, 85);
+    border: 2px solid rgb(137, 189, 85);
+}
+#face:hover{
+    color: rgb(69, 190, 238);
+    border:2px solid rgb(69, 190, 238);
+    background-color: white;
+    font-weight: bold;
+}
+#insta:hover{
+    color:rgb(255, 123, 100); 
+    border: 2px solid rgb(255, 123, 100);
+    background-color: white;
+    font-weight: bold;
+}
+#twitter:hover{
+    color:rgb(89, 61, 134) ;
+    border: 2px solid rgb(89, 61, 134);
+    background-color: white;
+    font-weight: bold;
+}
+#mail:hover{
+    color:rgb(137, 189, 85);
+    border: 2px solid rgb(137, 189, 85);
+    background-color: white;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100vw;
+   margin-top: 200px;
+}
+/* Scrollbar-Change */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ad1c58;
+    border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ad1c58;
+  }
